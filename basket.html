@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css"> 
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img src="img/logo.png" alt="logo">
+            </div>
+           
+            <input type="checkbox" id="menu-checkbox">
+            <nav role="navigation">
+                <label for="menu-checkbox" class="toggle-button" data-open="MENU" data-close="CLOSE" onclick></label>
+                <ul class="main-menu">
+                    <li><a href="basket.html"><img src="img/basket.png"></a></li>
+                    <li><a href="basket.html"><img src="img/basket.png"></a></li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="catalogue.html">CATALOGUE</a></li>
+                    <li><a href="payment.html">SHIPPING AND PAYMENT</a></li>
+                    <li><a href="legal.html">LEGAL ASPECTS</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <form action="#">
+        <section class="template">
+            <h1>BUY YOUR GUN</h1>
+            <div class="step-1">
+                <h3>Step one. <br>Check your basket</h3>
+                <div class="basket-info">
+                    <table id="item">
+                        <tr>
+                            <td>name</td>
+                            <td>cost</td>
+                            <td>number</td>
+                            <td>amount</td>
+                            <td>Delete</td>
+                        </tr>
+                        <tr>
+                            <td class="item-name">CZ SP-01 SHADOW 6MM</td>
+                            <td class="item-cost">200$</td>
+                            <td class="item-number">4</td>
+                            <td class="item-amount">800$</td>
+                            <td class="item-del"><input type="button" name="" value="DEL" id="del"></td>
+                        </tr>
+                        <tr>
+                            <td class="item-name">CZ SP-01 SHADOW 6MM</td>
+                            <td class="item-cost">200$</td>
+                            <td class="item-number">4</td>
+                            <td class="item-amount">800$</td>
+                            <td class="item-del"><input type="button" name="" value="DEL" id="del"></td>
+                        </tr>
+                        <tr>
+                            <td class="item-name">CZ SP-01 SHADOW 6MM</td>
+                            <td class="item-cost">200$</td>
+                            <td class="item-number">4</td>
+                            <td class="item-amount">800$</td>
+                            <td class="item-del"><input type="button" name="" value="DEL" id="del"></td>
+                        </tr>
+                        <tr>
+                            <td class="item-name">CZ SP-01 SHADOW 6MM</td>
+                            <td class="item-cost">200$</td>
+                            <td class="item-number">4</td>
+                            <td class="item-amount">800$</td>
+                            <td class="item-del"><input type="button" name="" value="DEL" id="del"></td>
+                        </tr>
+                    </table>
+                    <!-- <div class="item">
+                        <div class="item-name">name</div>
+                        <div class="item-cost">cost</div>
+                        <div class="item-number">number</div>
+                        <div class="item-amount">amount</div>
+                        <div>Delete</div>
+                    </div>
+                    <div class="item">
+                        <div class="item-name">CZ SP-01 SHADOW 6MM</div>
+                        <div class="item-cost">200$</div>
+                        <div class="item-number">4</div>
+                        <div class="item-amount">800$</div>
+                        <input type="button" name="" value="DEL">
+                    </div> -->
+                </div>
+            </div>
+            
+            <div class="step-2">
+                <h3>Step one. <br>Leave your details</h3>
+                <p>
+                    <p>What is your name?</p>
+                    <p><input type="text" name="name" placeholder="Daniel" required=""></p>
+                    <p>Leave your phone.</p>
+                    <p><input type="tel" name="tel" placeholder="88005553535" required=""></p>
+                </p>
+            </div>
+
+            <div class="step-3">
+                <h3>Step one. <br>Сonfirm order</h3>
+               <input type="checkbox" name="checkbox" required="">
+               <p> I agree with bla bla bla bla bla... </p>
+               <input type="submit" name="submit" value="SUBMIT">
+            </div>
+        </section>
+    </form>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="about-us">
+                <h4>About us</h4>
+                <p>Everyday practice shows that the new model of organizational activity is an interesting experiment in verifying the directions of progressive development. The significance of these problems is so obvious that the scope and place of training contributes to the preparation and implementation of mass participation systems. Thus, the scope and place of training require us to analyze the positions taken by participants in relation to the tasks</p>
+                <a href="#">Learn more</a>
+                <h4>Photo Stream</h4>
+                <div class="images">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                    <img src="img/gunfooter.jpg" alt="gunfooter">
+                </div>
+                <div class="underground">
+                    <nav role="navigation">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="catalogue.html">CATALOGUE</a></li>
+                        <li><a href="payment.html">SHIPPING AND PAYMENT</a></li>
+                        <li><a href="legal.html">LEGAL ASPECTS</a></li>
+                        <li><a href="contacts.html">CONTACTS</a></li>
+                    </nav>
+                </div>
+            </div>
+            <div class="twets">
+                <h4>Connect with us</h4>
+                <p><a href="#"><img src="img/fc.png">Facebook</a></p>
+                <p><a href="#"><img src="img/inst.png">Instagramm</a></p>
+                <p><a href="#"><img src="img/tw.png">Twitter</a></p>
+                <p><a href="#"><img src="img/tel.png">Telegram</a></p>
+                <p><a href="#"><img src="img/yt.png">YouTube</a></p>
+
+                    <h4 style="margin-top: 20px">Contact info</h4>
+                    
+                    <p><a href="#"><img src="img/nav.png"> Ulica Pushkina, dom Kolotushkina 5</a></p>
+                
+                    <p><a href="#"><img src="img/gm.png">daniilgeroldovich@gmail.com</a></p>
+            
+                    <p><a href="#"><img src="img/phone.png">+7(800)555-3535</a></p>              
+            </div>
+            
+        </div>
+    </footer>
+</body>
+</html>
